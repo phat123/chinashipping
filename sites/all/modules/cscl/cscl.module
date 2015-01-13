@@ -1,0 +1,242 @@
+<?php
+
+function cscl_form_alter(&$form, &$form_state, $form_id) {
+	if ('webform_client_form_30' == $form_id) {
+		if (isset($_GET['nid'])){
+			$nid=$_GET['nid'];
+			if($nid!=null&&$nid!=""){
+				$form['submitted']['job_id']['#value']=$nid; 
+			}
+		}
+		if (isset($_GET['title'])){
+			$title=urldecode($_GET['title']);
+			if($title!=null&&$title!=""){
+				$form['submitted']['job_title']['#value']=$title; 
+			}
+		}
+			
+			$form['#submit'][] = 'cscl_apply_career_submit';
+			$form['actions']['submit'] = array(
+				 '#type' => 'submit',
+				 '#value' => t('Apply'), 
+				 );
+		  
+	}
+	if('webform_client_form_64' == $form_id) {
+		$form['#submit'][] = 'cscl_apply_send_question';
+		$form['actions']['submit'] = array(
+				 '#type' => 'submit',
+				 '#value' => t('Send'), 
+				 );
+	}
+	
+	if('webform_client_form_12' == $form_id) {
+		$form['#submit'][] = 'cscl_apply_send_contact';
+		$form['actions']['submit'] = array(
+				 '#type' => 'submit',
+				 '#value' => t('Send'), 
+				 );
+	}
+}
+function cscl_apply_send_contact($form, $form_state){
+	 /* echo"<pre>";
+	print_r($form_state);
+	echo"</pre>";
+	exit(); */
+	$to="vulong.it90@gmail.com";
+	$company=$form_state['values']['submitted'][11];
+	$address=$form_state['values']['submitted'][4];
+	$phone=$form_state['values']['submitted'][6];
+	$other_phone=$form_state['values']['submitted'][7];
+	$email=$form_state['values']['submitted'][8];
+	$department=$form_state['values']['submitted'][12];
+	$descript=$form_state['values']['submitted'][10];
+	if($phone!=""){
+		$temp="Phone number: <b>$phone</b>";
+	}
+	if($other_phone!=""){
+		$temp_other="Other Phone: <b>$other_phone</b>";
+	}
+	if($department=="sale_marketing"){
+		$to="vulong.it90@gmail.com";
+	}
+	else if($department=="inbound"){
+		$to="vulong.it90@gmail.com";
+	}
+	else if($department=="outbound"){
+		$to="vulong.it90@gmail.com";
+	}
+	else if($department=="accounting"){
+		$to="vulong.it90@gmail.com";
+	}
+	else if($department=="equipment_control"){
+		$to="vulong.it90@gmail.com";
+	}
+	else if($department=="hr_admin"){
+		$to="vulong.it90@gmail.com";
+	}
+	else if($department=="terminal"){
+		$to="vulong.it90@gmail.com";
+	}
+	$to.=",hdragon90@yahoo.com";
+	
+	$message="<div>Do not reply to this email address!</div>\r\n
+				<div> </div></br><br/>
+				<div>Hello ,</div>
+				<div> </div>\r\n</br><br/>
+				<div><b>$company</b> has been send information from contact form with detail :</div></br><br/>
+				<div>Address: <b>$address</b></div><br/>
+				<div>$temp</div><br/>
+				<div>$temp_other</div><br/>
+				<div>Email: <b>$email</b></div><br/>
+				<div>Description: <b>$descript</b></div><br/>";
+				
+			$from = variable_get('site_mail', ini_get('sendmail_from'));
+			
+			$subject="[NEW CONTACT]";
+			$result=cscl_drupal_mail($from, $to,$subject,$message);
+			 if($result==TRUE){
+			
+				 unset($_SESSION['messages']);
+				drupal_set_message("Send successfully");
+			}  
+			drupal_goto("contact-us/contact-form");
+}
+function cscl_apply_career_submit($form, $form_state){
+	
+	/* echo"<pre>";
+	print_r($form_state);
+	echo"</pre>";
+	exit(); */
+ 	$last_name=$form_state['values']['submitted'][2];
+	$first_name=$form_state['values']['submitted'][1];
+	$middle_name=$form_state['values']['submitted'][3];
+	$address=$form_state['values']['submitted'][4];
+	$home_phone=$form_state['values']['submitted'][6];
+	$other_phone=$form_state['values']['submitted'][7];
+	$email=$form_state['values']['submitted'][8];
+	$zip_city=$form_state['values']['submitted'][5];
+	$job_id=$form_state['values']['submitted'][11];
+	$job_name=$form_state['values']['submitted'][12];
+	$to="vulong.it90@gmail.com";
+	
+			$message="<div>Do not reply to this email address!</div>\r\n
+				<div> </div></br><br/>
+				<div>Hello ,</div>
+				<div> </div>\r\n</br><br/>
+				<div>$first_name $last_name $middle_name has been applied job <b>$job_name</b></div>";
+			$from = variable_get('site_mail', ini_get('sendmail_from'));
+			
+			$subject="[APPLY JOB]";
+			$result=cscl_drupal_mail($from, $to,$subject,$message);
+			 if($result==TRUE){
+			
+				 unset($_SESSION['messages']);
+				drupal_set_message("Apply successfully");
+			}  
+			drupal_goto("news/careers");
+}
+function cscl_apply_send_question($form, $form_state){
+	/* echo"<pre>";
+	print_r($form_state);
+	echo"</pre>";
+	exit(); */
+	$last_name=$form_state['values']['submitted'][2];
+	$first_name=$form_state['values']['submitted'][1];
+	$middle_name=$form_state['values']['submitted'][3];
+	$address=$form_state['values']['submitted'][4];
+	$email=$form_state['values']['submitted'][6];
+	$phone=$form_state['values']['submitted'][5];
+	$question=$form_state['values']['submitted'][7];
+	$temp="";
+	$temp_add="";
+	if($phone!=""){
+		$temp="Phone number: $phone";
+	}
+	if($address!=""){
+		$temp_add="Address: $address";
+	}
+	$to="vulong.it90@gmail.com";
+	
+			$message="<div>Do not reply to this email address!</div>\r\n
+				<div> </div></br><br/>
+				<div>Hello ,</div>
+				<div> </div>\r\n</br><br/>
+				<div>$first_name $last_name $middle_name has been send a question :</div></br><br/>
+				<div><b>$question</b></div><br/></br><br/>
+				<div><b>Information:</b></div><br/>
+				$temp_add <br/>
+				Email: $email<br/>
+				$temp";
+			$from = variable_get('site_mail', ini_get('sendmail_from'));
+			
+			$subject="[NEW QUESTION]";
+			$result=cscl_drupal_mail($from, $to,$subject,$message);
+			 if($result==TRUE){
+			
+				 unset($_SESSION['messages']);
+				drupal_set_message("Send successfully");
+			}  
+			drupal_goto("eservice/faqs/question");
+}
+function cscl_node_submit($node, $form, &$form_state){
+	
+	if($node->type=="forum"){
+		if($node->field_send_email['und'][0]['value']==1){
+			$to="vulong.it90@gmail.com";
+	
+			$message="<div>Do not reply to this email address!</div>\r\n
+				<div> </div></br><br/>
+				<div>Hello ,</div>
+				<br/>
+				<div>New topic has been created. You should go to website to view this topic.</div>";
+			$from = variable_get('site_mail', ini_get('sendmail_from'));
+			
+			$subject="[NEW TOPIC]";
+			$result=cscl_drupal_mail($from, $to,$subject,$message); 
+			if($result==TRUE){
+			
+				 unset($_SESSION['messages']);
+				
+			}  
+		}
+	}
+}
+
+
+function cscl_drupal_mail($from = 'default_from', $to, $subject, $message) {
+
+  $my_module = 'cscl';
+  $my_mail_token = microtime();
+
+  if ($from == 'default_from') {
+    // Change this to your own default 'from' email address.
+    $from = variable_get('system_mail', 'CSCL <vulong.it90@gmail.com>');
+
+  }
+  
+  $message = array(
+    'id' => $my_module . '_' . $my_mail_token,
+    'to' => $to,
+    'subject' => $subject,
+    'body' => array($message),
+    'headers' => array(
+      'From' => $from, 
+      'Sender' => $from, 
+      'Return-Path' => "news/careers",
+	  'Content-Type' =>'text/html; charset=UTF-8;',
+    ),
+  );
+  
+  $system = drupal_mail_system($my_module, $my_mail_token);
+  $message = $system->format($message);
+  if ($system->mail($message)) {
+    return TRUE;
+  }
+  else {
+    return FALSE;
+  }
+}
+
+
+?>

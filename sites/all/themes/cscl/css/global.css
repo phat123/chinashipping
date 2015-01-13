@@ -1,0 +1,330 @@
+body { margin-top:0; font-family:arial; font:arial; }
+#container { max-width:1000px; background:#EEE; margin:0 auto; }
+#fvpp-blackout { display:none; z-index:499; position:fixed; width:100%; height:100%; top:0; left:0; background:#000; opacity:0.5; }
+#my-welcome-message { display:none; z-index:500; position:fixed; width:36%; left:30%; top:20%; font-family:Calibri, Arial, sans-serif; background:#FFF; padding:20px 2%; }
+#fvpp-close { position:absolute; top:10px; right:20px; cursor:pointer; }
+#fvpp-dialog h2 { font-size:2em; margin:0; }
+.context-contact-us #section-content,.context-company #section-content,.page-node-11 #section-content,.node-type-faqs #section-content,.page-faqs #section-content,.page-information #section-content,.context-information #section-content,.page-careers #section-content,.page-news-careers #section-content,.node-type-careers #section-content,.page-node-31 #section-content { min-height:550px; }
+#region-user-first { width:100%; margin:0; }
+#block-views-bg-top-branding-block { position:absolute; width:100%; }
+.container-12 .grid-9 { width:760px!important; }
+#section-header #zone-branding-wrapper #zone-branding { padding-top:38px; width:980px; margin:0 auto; }
+#section-header .logo-img { margin-bottom:30px; margin-top:-30px; } 
+#block-locale-language { float:right; margin-top:-40px; } 
+#block-locale-language .language-switcher-locale-url li { float:left; list-style:none; padding-left:10px; margin-left:10px; line-height:14px; } 
+#block-locale-language .language-switcher-locale-url li:last-child { border-left:1px solid #000; } 
+#block-locale-language .language-switcher-locale-url li a { text-decoration:none; font-size:12px; } 
+#block-locale-language .language-switcher-locale-url li a.active { font-weight:700; text-decoration:underline; } 
+#block-menu-menu-main-menu-right { clear:both; float:right; font-size:16px; margin-bottom:15px; margin-top:-32px; } 
+#block-menu-menu-main-menu-right .menu li { list-style:none; float:left; height:12px; line-height:10px; border-right:2px solid #0e5ba9; } 
+#block-menu-menu-main-menu-left { clear:both; font-size:16px; font-weight:700; } 
+#block-menu-menu-main-menu-left .content { background:#558cc3; height:35px; } 
+#block-menu-menu-main-menu-left .menu li { list-style:none; float:left; line-height:35px; vertical-align:middle; margin:0 0 0 30px; padding:0; } 
+#block-menu-menu-main-menu-left .menu li a { text-decoration:none; color:#FFF; border-right:2px solid #FFF; padding-right:30px; } 
+#search-block-form #edit-search-block-form--2 { border:none; -webkit-box-shadow:none; height:32px; width:195px; } 
+#search-block-form { background:#FFF; height:32px; } 
+#zone-menu-wrapper #zone-menu #region-menu { margin:0; padding:0; } 
+#block-views-bg-content-block { width:100%; z-index:0; } 
+#views_slideshow_cycle_teaser_section_bg_content-block,#views_slideshow_cycle_teaser_section_bg_content-block .views_slideshow_slide { width:100%!important; z-index:0; } 
+#block-block-1 { text-align:right; height:409px; } 
+.page-node-1 #section-content #zone-content #region-content { width:100%!important; margin:-210px auto 0!important; } 
+#block-block-1 .container-word-class { float:right; width:234px; height:409px; text-align:center; } 
+#block-block-1 .container-word-class .row-first { font-size:28px; font-weight:700; color:#FFF; margin-top:50px; text-shadow:2px 2px 2px gray; } 
+#block-block-1 .container-word-class .row-second { font-size:14px; font-weight:700; color:#FFF; text-shadow:2px 2px 2px gray; } 
+.container-word-class { background:url(../images/bg-word-class.png); } 
+.bg-oveflow-bottom { background:url(../images/bg-footer-top.png); height:210px; width:100%; position:absolute; } 
+.over-flow-bottom { background:url(../images/bg-bottom-overlay.png); height:200px; width:100%; display:block; position:relative; } 
+#block-views-taxonomy-global-agent-block .view-header .border-right { width:2px; height:175px; background:#FFF; position:absolute; margin-top:58px; margin-left:240px; } 
+#block-views-taxonomy-global-agent-block .container-icon-global-agent { width:235px; height:91px; margin-top:-45px; } 
+#block-views-taxonomy-global-agent-block .icon-global-agent { width:88px; height:88px; background:url(../images/global-agent.png) center center no-repeat; border:2px solid gray; border-radius:70px; box-shadow:#000 0 0 10px; margin:0 auto; } 
+#block-views-taxonomy-global-agent-block .view-content { text-align:center; width:145px; margin:0 auto; } 
+#block-views-taxonomy-global-agent-block .view-content .views-row { width:70px; float:left; } 
+#block-views-taxonomy-global-agent-block .view-content .views-row .field-content { color:#FFF; font-size:12px; } 
+#block-views-taxonomy-global-agent-block .view-footer { color:#FFF; text-align:right; margin-top:67px; } 
+#block-views-taxonomy-global-agent-block .view-footer .global-agent-more a { color:#FFF; padding-right:20px; margin-right:40px; background:url(../images/more-info.png) center right no-repeat; font-weight:700; } 
+#block-views-vessel-schedule-block .view-content { padding-left:10px; padding-right:10px; color:#FFF; text-align:justify; } 
+#block-views-vessel-schedule-block .border-right-vessel { width:2px; height:175px; background:#FFF; position:absolute; margin-top:58px; margin-left:245px; } 
+#block-views-vessel-schedule-block .vessel-container-icon { width:245px; height:91px; margin-top:-45px; text-align:center; } 
+#block-views-vessel-schedule-block .icon-vessel { width:88px; height:88px; background:url(../images/vessel-schedule.png) center center no-repeat; border:2px solid gray; border-radius:70px; box-shadow:#000 0 0 10px; margin:0 auto; } 
+#block-views-vessel-schedule-block .border-top-vessel,#block-views-taxonomy-global-agent-block .border-top-global,#block-block-2 .border-top-track-shipment { width:245px; height:3px; margin-top:5px; } 
+#block-views-vessel-schedule-block .border-bottom-vessel,#block-views-taxonomy-global-agent-block .border-bottom-global,#block-block-2 .border-bottom-track-shipment { width:170px; height:3px; border-bottom:2px solid #FFF; margin:10px auto; } 
+#block-views-vessel-schedule-block .views-more-link { background:url(../images/more-info.png) center right no-repeat; color:#FFF; font-weight:700; padding-right:20px; } 
+#block-block-2 { width:245px; height:180px; float:left; text-align:center; } 
+#block-block-2 .container-icon-track-shipment { width:245px; height:91px; margin-top:-45px; } 
+#block-block-2 .icon-track-shipment { width:88px; height:88px; background:url(../images/track-shipments.png) center center no-repeat; border:2px solid gray; border-radius:70px; box-shadow:#000 0 0 10px; margin:0 auto; } 
+#block-block-2 .bg-input { background:#FFF; border-radius:5px; -webkit-box-shadow:1px 1px 1px gray; } 
+#block-block-2 .radio_track { opacity:0; width:24px; height:24px; } 
+#block-block-2 .bg-radio { width:24px; height:24px; background:url(../images/radio.png) center center no-repeat; float:left; } 
+#block-block-2 font { float:left; line-height:25px; margin-left:5px; margin-right:10px; color:#FFF; } 
+#block-block-2 .radio-checked { background:url(../images/radio-checked.png) center center no-repeat; } 
+#block-block-2 .input_track,#block-block-2 .submit_track { background:none; border:none; -webkit-box-shadow:none; } 
+#block-block-2 .submit_track { border-left:1px solid; color:gray; box-shadow:0 0 8px 2px gray; border-radius:5px; } 
+#block-views-news-block { width:235px; height:200px; float:right; text-align:center; background:#FFF; opacity:0.6; filter:alpha(opacity=60); text-shadow:0 0 #000; } 
+#block-views-news-block .content { margin-top:-15px; padding:15px; } 
+#block-views-news-block .content .view-header { border-bottom:2px solid gray; } 
+#block-views-news-block .content .title-latest-news { padding-top:15px; text-align:left; font-size:16px; font-weight:700; color:#00237f; } 
+#block-views-news-block .content .view-content { text-align:left; padding-top:20px; } 
+#block-views-news-block .content .view-content .views-field-title { font-weight:700; text-align:justify; } 
+#block-views-news-block .content .view-content .views-more-link { text-transform:initial; } 
+#block-menu-menu-menu-contact { margin-top:5px; } 
+#block-menu-menu-menu-contact .menu { text-align:center; width:410px; margin:0 auto; } 
+#block-menu-menu-menu-contact .menu li { list-style:none; float:left; } 
+#block-menu-menu-menu-contact .menu li a { font-size:16px; font-weight:700; text-decoration:none; padding-right:20px; margin-left:0; border-right:2px solid #000; } 
+#block-block-4 { width:100%; height:210px; margin-top:-210px; } 
+#form-tracking .bg-radio .radio_track { float:left; width:20px; height:20px; } 
+.container-page-tracking .description { text-align:justify; } 
+.page-forum #region-content #page-title { font-weight:700; font-size:16px; color:#598ec4; margin-top:20px; } 
+.page-forum #region-content #block-system-main .forum-table-wrap .forum-table-superheader { height:36px; background:url(../images/bg-title-forum.png) repeat-x; border:none; padding:0; } 
+.page-forum #region-content #block-system-main .forum-table-wrap .forum-table-superheader .forum-table-name { color:#FFF; font-size:16px; font-weight:700; line-height:36px; } 
+.page-forum #region-content #block-system-main .forum-table-wrap .forum-table-superheader .forum-table-name a { color:#FFF; font-size:16px; font-weight:700; text-decoration:none; text-transform:uppercase; } 
+span.forum-collapsible { width:19px; background:transparent url(../images/collapsiable.png) no-repeat center center; } 
+span.container-collapsed { background:transparent url(../images/expand.png) no-repeat center center; } 
+#forum .forum-table-forums .forum-row { height:90px; } 
+#forum .forum-table-forums { width:980px; border:none; } 
+.forum-table-wrap thead tr { background:#FFF; border:none; margin:10px 0; } 
+#forum .forum-table-forums .forum-header tr th.forum-icon,#forum .forum-table-forums tbody tr td.forum-list-icon { width:110px; } 
+#forum .forum-table-forums .forum-header tr th.forum-name,#forum .forum-table-forums tbody tr td.forum-details { width:480px; padding-left:10px; padding-right:10px; } 
+#forum .forum-table-forums .forum-header tr th.forum-topics,#forum .forum-table-forums tbody tr td.forum-number-topics { width:125px; } 
+#forum .forum-table-forums .forum-header tr th.forum-last-post { width:250px; text-align:center; } 
+#forum .forum-table-forums .forum-row td { vertical-align:middle; } 
+.forum-list-icon-wrapper { background:none; -webkit-box-shadow:none; border-radius:none; border-top:none; box-shadow:none; margin:0; padding:0; } 
+.forum-list-icon-wrapper span { width:110px; height:45px; } 
+#block-menu-menu-contact-us { background:url(../images/bg-block-left.png); border-radius:10px; float:left; font-family:arial; width:200px; box-shadow:2px 4px 1px #c7bdbd; margin-top:10px; margin-bottom:20px; } 
+#node-page-14 { width:745px; margin-top:30px; } 
+#node-webform-12 #edit-submitted-department,#node-webform-130 #edit-submitted-department { width:200px; } 
+#node-webform-12 #webform-component-department,#node-webform-130 #webform-component-department { margin-right:175px; } 
+.not-front #section-footer { background:#e6e6e6; margin-top:30px; } 
+.page-node-1 #region-sidebar-second { width:100%; margin:0; padding:0; } 
+#node-page-9 { width:745px; float:left; } 
+#node-page-15 table,#node-page-127 table { width:745px; } 
+#node-page-15 table tr td,#node-page-127 table tr td { border:1px solid gray; width:114px; padding:5px; } 
+#node-page-15 table tr td a,#node-page-127 table tr td a { text-decoration:none; color:#1e1e1e; font-weight:700; } 
+#node-page-15 table tr td a:hover,#node-page-127 table tr td a:hover { text-decoration:none; color:#00237f; } 
+#node-page-15 .title-subcompany,#node-page-127 .title-subcompany { font-weight:700; font-size:14px; margin-bottom:20px; color:#464141; line-height:10px; } 
+.page-node-16 #node-page-16 img { margin-right:10px; } 
+#block-views-vessel-schedule-block-1 { margin-top:30px; margin-bottom:30px; } 
+#block-views-vessel-schedule-block-1 .title-vessel-schedule { text-align:center; font-size:26px; font-weight:700; text-shadow:1px 1px 1px gray; margin-bottom:30px; } 
+#block-views-vessel-schedule-block-1 .view-content .views-row .views-field-title { float:left; font-size:14px; background:url(http://chinashipping.ca/images/list-marker-1.png)left center no-repeat; background-color:#e4e4e4; box-shadow:1px 1px 1px gray; padding:5px 20px 5px 2px; } 
+#block-views-vessel-schedule-block-1 .view-content .views-row .views-field-title .field-content { padding-left:20px; } 
+#block-views-vessel-schedule-block-1 .view-content .views-row .views-field-title .field-content a.active { color:#000; text-decoration:none; } 
+#views-exposed-form-faqs-page #edit-keys-wrapper label { text-transform:uppercase; font-weight:700; color:#1e66af; margin-bottom:20px; font-size:14px; } 
+#views-exposed-form-faqs-page #edit-keys-wrapper #edit-keys { width:365px; height:35px; background:#eaeaea; border:1px solid #ddd; box-shadow:none; } 
+#views-exposed-form-faqs-page #edit-submit-faqs { width:110px; height:35px; margin-top:20px; background:url(../images/bg-btn-large.png) repeat-x; border-radius:3px; color:#FFF; font-weight:700; text-shadow:none; } 
+.view-faqs .view-content .views-field-field-question { margin-bottom:10px; } 
+.view-faqs .view-content .views-field-field-question .question-faqs { text-decoration:none; font-size:12px; font-weight:700; color:#58595b; } 
+.view-faqs .view-content .views-field-field-answer .field-content { text-shadow:0 0 0 #000; } 
+.view-faqs .view-content .views-row { padding-top:10px; padding-bottom:10px; padding-right:10px; } 
+.border-top-bottom { border-top:1px solid #000; border-bottom:1px solid #000; } 
+#block-views-faqs-block-1 { width:210px; float:left; margin-left:20px; margin-top:50px; } 
+#block-views-faqs-block-1 .block-title { text-transform:uppercase; font-weight:700; color:#1e66af; margin-bottom:20px; font-size:14px; font-family:arial; } 
+#block-views-faqs-block-1 .question-faqs { color:#598ec4; } 
+#block-block-5 { clear:both; width:200px; height:72px; background:url(../images/vessel-icon.png); } 
+#block-block-5 .content p a { height:72px; vertical-align:middle; margin-top:5px; width:100px; display:block; text-decoration:none; color:#FFF; font-weight:700; padding:10px; } 
+#block-block-6 { clear:both; width:200px; height:72px; background:url(../images/cargotracking-icon.png); margin-bottom:10px; } 
+#block-block-6 .content p a { height:72px; vertical-align:middle; margin-top:5px; width:95px; display:block; text-decoration:none; color:#FFF; font-weight:700; padding:10px; } 
+.node-type-service-profile #block-system-main { float:left; margin-top:24px; } 
+.node-type-service-profile #block-system-main .block-inner,.context-information #block-system-main .block-inner { width:735px; } 
+.page-eservice-faqs #block-system-main .block-inner { float:left; width:505px; margin-left:0; margin-top:20px; border-right:1px solid #000; } 
+#block-menu-menu-news { border-radius:10px; font-family:arial; width:200px; box-shadow:2px 4px 1px #c7bdbd; margin-top:30px; margin-bottom:20px; background:url(../images/bg-block-left.png); float:left; } 
+.page-news #section-content #zone-content #region-content,.node-type-careers #section-content #zone-content #region-content,.node-type-holidays-public #section-content #zone-content #region-content,.node-type-news #section-content #zone-content #region-content { width:725px; float:left; margin-top:30px; } 
+.page-news .grid-3,.node-type-careers .grid-3,.node-type-holidays-public .grid-3,.node-type-news .grid-3 { float:none; } 
+.apply-careers { margin-bottom:30px; text-align:right; float:right; } 
+.apply-careers a.apply-button { width:62px; height:25px; display:block; text-align:center; background:url(../images/bg-btn.png) repeat-x; border-radius:3px; color:#FFF; font-weight:700; padding-top:2px; text-decoration:none; } 
+.page-node-30 #region-content #page-title { font-weight:700; font-size:24px; color:#598ec4; font-family:arial; margin-top:20px; } 
+.page-node-1 #region-content { z-index:100; } 
+#block-block-3 .content p { margin-bottom:3px; } 
+.node-type-careers #block-system-main,.node-type-holidays-public #block-system-main,.node-type-news #block-system-main { width:760px; text-align:justify; } 
+#nice-menu-2.nice-menu ul li { width:13em; } 
+#bttop { border:1px solid #4adcff; background:#24bde2; text-align:center; position:fixed; bottom:35px; right:10px; cursor:pointer; display:none; color:#fff; font-size:11px; font-weight:900; z-index:100; padding:5px; } 
+#bttop:hover { border:1px solid #ffa789; background:#ff6734; } 
+#privatemsg-list table.privatemsg-list thead tr >th { padding-bottom:20px; } 
+.page-messages .action-links >li { list-style:none; } 
+.page-messages .action-links >li > a { text-decoration:none; background:url(../images/bg-btn.png) repeat-x; display:block; width:130px; border-radius:4px; box-shadow:0 2px 4px 2px #c9c2c2; color:#FFF; font-weight:700; padding:2px 10px; } 
+#privatemsg-new #edit-actions #edit-submit { background:url(../images/bg-btn.png) repeat-x; box-shadow:0 2px 4px 2px #c9c2c2; color:#FFF; font-weight:700; border-radius:4px; text-shadow:none; padding:4px 10px; } 
+#privatemsg-new #edit-actions #edit-cancel { margin-left:20px; } 
+#views-exposed-form-search-category-page .views-exposed-form .views-exposed-widgets { clear:both; width:224px; height:32px; background:#FFF; margin:0; } 
+#views-exposed-form-search-category-page .views-exposed-form .views-exposed-widget { padding:0; } 
+#views-exposed-form-search-category-page .views-exposed-form .views-exposed-widget .form-item-keys .form-text { border:none; -webkit-box-shadow:none; height:32px; width:170px; box-shadow:none; } 
+#views-exposed-form-search-category-page .views-exposed-form .views-exposed-widget .form-item-type .form-select { height:32px; width:115px; -webkit-box-shadow:none; box-shadow:none; border:none; border-left:1px solid #d6d6d6; margin-left:10px; } 
+#views-exposed-form-search-category-page .views-exposed-form .views-submit-button .form-submit { background:url(../images/btn-search.png) no-repeat; font-size:0; width:25px; height:25px; -webkit-box-shadow:none; border:none; margin-right:10px; box-shadow:none; margin-left:10px; margin-top:2px; } 
+.page-search-category .view-search-category .views-row { margin-bottom:45px; border-top:1px solid gray; } 
+#block-menu-menu-resource { background:url(../images/bg-block-left.png); border-radius:10px; float:left; font-family:arial; width:200px; box-shadow:2px 4px 1px #c7bdbd; margin-top:30px; margin-bottom:20px; } 
+div#quickbar div.depth-0 { height:40px; } 
+#region-sidebar-first a:hover { font-weight:700; color:#b8b8b8; font-size:14px; } 
+.page-eservice-faqs #block-system-main { margin-top:0; } 
+.region-content-inner { margin-top: 28px;}
+h1, h1.title, .not-front.node-type-page #section-content #zone-content #region-content .region-content-inner #page-title { color:#3075bc; font-size:28px; padding:0 0 8px; font-family: Arial, Tahoma, sans-serif;} 
+a:link,a:visited { color:#105395; text-decoration:none; } 
+.views-table td { padding:12px 24px; } 
+.link_all:hover { color:#04c1ff; font-weight:700; cursor:pointer; } 
+#block-views-news-block .view-content .item-list >ul { height:120px; } 
+.breadcrumb { margin-top:20px; padding-bottom:0; } 
+.context-information #block-system-main { margin-top:30px; } 
+.page-information-vessel-schedule .block-views .view-content table .views-field-title { width:50%; } 
+.page-information-vessel-schedule .block-views .view-content table .views-field-view-node { width:15%; } 
+.title-continents { font-weight:700; margin-bottom:10px;text-transform: uppercase;text-align: left; } 
+.page-node-25 #node-page-25 .content { margin-top:25px; } 
+.link_question { font-weight:700; font-size:18px; font-style:italic; text-decoration:underline!important; } 
+.link_question:hover { color:#0F89DA; text-decoration:none!important; } 
+#node-webform-64 .webform-container-inline label { font-size:12px; font-family:arial; width:163px; } 
+#node-webform-144 .webform-container-inline label { font-size:12px; font-family:arial; width:163px; } 
+.menu-path-node-8 ul li { width:15em!important; } 
+.context-eservice .view-service-profile table .views-field-view-node { width:25%; } 
+.node-type-service-profile-new #breadcrumb .last,.node-type-service-profile-new #breadcrumb span.delimiter:last-child { display:none!important; } 
+.page-node-76 #page-title,.page-node-123 #page-title { font-size:30px; margin-bottom:-30px; } 
+.page-node-76 #node-webform-76,.page-node-123 #node-webform-123 { width:700px; } 
+.page-node-76 #node-webform-76 .webform-component-textarea .form-textarea-wrapper,.page-node-123 #node-webform-123 .webform-component-textarea .form-textarea-wrapper { width:400px; float:left; } 
+#webform-client-form-76 label,#webform-client-form-123 label { margin-right:1em; width:185px; display:inline-block; text-align:right; } 
+#webform-client-form-76 .form-actions,#webform-client-form-123 .form-actions { clear:both; width:585px; text-align:right; padding-top:30px; } 
+#webform-component-booking-party span.fieldset-legend { width:185px; text-align:right; display:block; } 
+#block-block-10 .block-title,#block-block-11 .block-title { background:#DDD; width:100%; border-bottom:1px solid #AAA; font-size:17px; box-shadow:0 7px 11px -10px; margin:0; padding:6px 10px 2px; } 
+#block-block-10 .content,#block-block-11 .content { background:#EEE; width:96%; margin:0; padding:25px; } 
+#block-block-10 .block-title:hover,#block-block-11 .block-title:hover { cursor:pointer; } 
+.region-content-inner { margin-top:28px; } 
+#fvpp-dialog p,#views-exposed-form-search-category-page .views-exposed-form .views-exposed-widget .form-submit { margin:0; } 
+#zone-user,#zone-menu-wrapper,#zone-menu-wrapper #zone-menu,#zone-menu-wrapper #zone-menu #region-menu,.page-node-1 #section-content #zone-content,#privatemsg-list table.privatemsg-list,.quickbar-enabled .views-table,.page-node-51 #block-views-public-holiday-block-2 table,.page-node-50 #block-views-news-block-1 table,.page-node-128 #block-views-news-block-1 table,.page-information-vessel-schedule .block-views .view-content table,.context-eservice .view-service-profile table { width:100%; } 
+.page-node-1 #page-title,.page-node-12 #page-title,.context-news #page-title,.page-forum #region-content .tabs,#forum .forum-table-forums .forum-header tr th.forum-posts,#forum .forum-table-forums tbody tr td.forum-number-posts,.forum-tools,.forum-list-icon-legend,#forum-statistics,#forum-sort,.feed-icon,.forum-table-superheader .forum-table-description,.context-contact-us #page-title,footer.submitted,.context-company #page-title,.node-type-vessel-schedule #page-title,.page-eservice #page-title,.hidden,.node-type-service-profile #page-title,.context-eservice #page-title,.node-type-careers #page-title,.node-type-holidays-public #page-title,.node-type-news #page-title,#node-webform-30 #webform-component-job-id,#node-webform-30 #webform-component-job-title,#block-block-8,#block-views-public-holiday-block-1,#views-exposed-form-search-category-page .views-exposed-form .views-widget-filter-type,.page-search-category .page_title,.region-content-inner .translation-link { display:none; } 
+#section-header #zone-branding-wrapper #zone-branding #region-branding,.page-node-1 #section-content #zone-content #region-content .region-content-inner,.context-news #section-content #zone-content { width:980px; margin:0 auto; } 
+#section-header #zone-branding-wrapper #zone-branding .branding-data,#form-tracking .bg-radio,#webform-component-name-last,#webform-component-frist-name,#webform-component-middle-name,.page-node-15 #node-page-15,.page-node-127 #node-page-127,#webform-component-name-last-first-middle-apply,#webform-component-frist-name-apply,#webform-component-middle-name-apply,#region-sidebar-first,#webform-component-name-last-first-middle,#webform-component-frist-name,#webform-component-middle-name,.page-node-76 #node-webform-76 .webform-component-textarea label,.page-node-123 #node-webform-123 .webform-component-textarea label { float:left; } 
+#block-nice-menus-1,#block-nice-menus-4 { clear:both; float:right; font-size:16px; padding-bottom:15px; margin-top:-35px; min-width:350px; padding-left:61px; background:url(../images/bg-menu-right.png) no-repeat; padding-top:9px; } 
+#block-nice-menus-1 #nice-menu-1 >li,#block-nice-menus-4 #nice-menu-4 >li { list-style:none; border:none; height:12px; line-height:4px; border-right:2px solid #0e5ba9; background:none; } 
+#block-nice-menus-1 #nice-menu-1 > li:last-child,#block-nice-menus-4 #nice-menu-4 > li:last-child,#block-menu-menu-main-menu-right .menu li:last-child { border-right:none; padding-right:0; } 
+#block-nice-menus-1 #nice-menu-1 >li a,#block-nice-menus-4 #nice-menu-4 >li a { text-decoration:none; color:#00237f; margin-left:10px; margin-right:10px; font-weight:700; } 
+#block-nice-menus-1 #nice-menu-1 >li ul li a,#block-nice-menus-4 #nice-menu-4 >li ul li a { color:#000; } 
+#block-nice-menus-1 #nice-menu-1 >li ul li,#block-nice-menus-4 #nice-menu-4 >li ul li { border-bottom:1px solid #dfd9d9; } 
+#block-nice-menus-1 #nice-menu-1 > li:last-child a,#block-nice-menus-4 #nice-menu-4 > li:last-child a { margin-right:0; } 
+#block-nice-menus-1 #nice-menu-1 ul,#block-nice-menus-4 #nice-menu-4 ul { margin-top:-12px; z-index:11; } 
+#block-nice-menus-1 #nice-menu-1 ul li,#block-nice-menus-4 #nice-menu-4 ul li { padding-top:10px; padding-bottom:10px; border:none; } 
+#block-nice-menus-1 #nice-menu-1 ul li a,#block-nice-menus-4 #nice-menu-4 ul li a { font-size:13px; } 
+#block-nice-menus-1 #nice-menu-1 ul li:hover,#block-nice-menus-4 #nice-menu-4 ul li:hover,#block-nice-menus-2 #nice-menu-2 ul li:hover,#block-nice-menus-3 #nice-menu-3 ul li:hover { background:#558cc3; } 
+#block-nice-menus-1 #nice-menu-1 ul li:hover a,#block-nice-menus-4 #nice-menu-4 ul li:hover a,#block-nice-menus-2 #nice-menu-2 ul li:hover a,#block-nice-menus-3 #nice-menu-3 ul li:hover a { color:#FFF; } 
+#block-menu-menu-main-menu-right .menu li a,#forum .forum-table-forums .forum-header tr th.forum-name,#forum .forum-table-forums tbody tr td.forum-last-reply a.username { text-decoration:none; } 
+#nice-menu-2,#nice-menu-3 { z-index:4; } 
+#block-nice-menus-2,#block-nice-menus-3 { clear:both; font-size:16px; font-weight:700; z-index:5; } 
+#block-nice-menus-2 .content,#block-nice-menus-3 .content { background:url(../images/bg-menu-left.png) no-repeat; height:35px; box-shadow:0 5px 10px #BBB; } 
+#block-nice-menus-2 #nice-menu-2,#block-nice-menus-3 #nice-menu-3 { border:none; } 
+#block-nice-menus-2 #nice-menu-2 > li,#block-nice-menus-3 #nice-menu-3 > li { list-style:none; line-height:25px; vertical-align:middle; border:none; background:none; margin:0; padding:0 0 0 7px; } 
+#block-nice-menus-2 #nice-menu-2 > li:hover,#block-nice-menus-3 #nice-menu-3 > li:hover { background:url(../images/nav_on_arrow.png) no-repeat top center; } 
+#block-nice-menus-2 #nice-menu-2 > li a,#block-nice-menus-3 #nice-menu-3 > li a { color:#FFF; text-decoration:none; border-right:2px solid #FFF; height:25px; font-size:14px; margin:5px 0 0; padding:0 7px 0 0; } 
+#block-nice-menus-2 #nice-menu-2 > li:last-child a,#block-nice-menus-3 #nice-menu-3 > li:last-child a,#block-menu-menu-menu-contact .menu li:last-child a { border-right:none; } 
+#block-nice-menus-2 #nice-menu-2 ul li,#block-nice-menus-3 #nice-menu-3 ul li { border:none; padding-left:10px; padding-right:10px; border-bottom:1px solid #dfd9d9; } 
+#block-nice-menus-2 #nice-menu-2 ul,#block-nice-menus-3 #nice-menu-3 ul { padding-top:5px; border-top:none; } 
+#block-nice-menus-2 #nice-menu-2 ul a,#block-nice-menus-3 #nice-menu-3 ul a { color:#000; font-size:12px; border-right:none; } 
+#block-nice-menus-2 #nice-menu-2 li ul li a,#block-nice-menus-3 #nice-menu-3 li ul li a { height:auto; } 
+#block-search-form,#block-views-exp-search-category-page { clear:both; float:right; margin-top:-32px; z-index:9; } 
+#block-search-form #search-block-form .form-submit,#search-block-form #edit-actions--2 #edit-submit--2 { background:url(../images/btn-search.png) no-repeat; font-size:0; width:25px; height:25px; -webkit-box-shadow:none; border:none; margin-right:10px; } 
+#section-content #zone-content,#zone-footer-wrapper #zone-footer,#zone-footer-wrapper #zone-footer #region-footer-first { width:980px; margin:0 auto; padding:0; } 
+#section-content #zone-content #region-contentr,.grid-9,.grid-1,.grid-2,.grid-3,.grid-4,.grid-5,.grid-6,.grid-7,.grid-8,.grid-9,.grid-10,.grid-11,.grid-12,.grid-13,.grid-14,.grid-15,.grid-16,.grid-17,.grid-18,.grid-19,.grid-20,.grid-21,.grid-22,.grid-23,.grid-24 { margin:0!important; padding:0!important; } 
+#block-views-taxonomy-global-agent-block,#block-views-vessel-schedule-block { width:245px; height:180px; float:left; } 
+#block-views-taxonomy-global-agent-block .view-header,#block-views-vessel-schedule-block .view-header,#block-block-3 { text-align:center; } 
+#block-views-taxonomy-global-agent-block .title-global-agent,#block-views-vessel-schedule-block .title-vessel,#block-block-2 .title-track-shipment { padding-top:5px; font-size:16px; font-weight:700; color:#FFF; margin-bottom:-10px; } 
+#block-views-taxonomy-global-agent-block .title-global-agent a,#block-views-vessel-schedule-block .title-vessel a,#block-block-2 .title-track-shipment a { font-size:16px; font-weight:700; color:#FFF; text-decoration:none; } 
+#block-views-taxonomy-global-agent-block .title-global-agent a:hover,#block-views-vessel-schedule-block .title-vessel a:hover,#block-block-2 .title-track-shipment a:hover { font-size:16px; font-weight:700; color:#00237f; } 
+#block-views-taxonomy-global-agent-block .view-footer .global-agent-more,#form-tracking .bg-input,#webform-component-current-address,#webform-component-current-address-apply { clear:both; } 
+#block-block-2 .form-track,#forum .forum-table-forums .forum-header tr th.forum-name,#forum .forum-table-forums tbody tr td.forum-last-reply { padding-left:10px; padding-right:10px; } 
+#block-block-2 .container-radio,.context-contact-us #section-content,#views-exposed-form-faqs-page .views-submit-button { margin-top:20px; } 
+#block-views-news-block .view-footer,#node-webform-12 .webform-component,#node-webform-130 .webform-component,#node-webform-12 .form-actions#edit-actions,#node-webform-130 .form-actions#edit-actions,#node-webform-30 .webform-component,#node-webform-30 .form-actions#edit-actions,#node-webform-64 .webform-component,#node-webform-144 .webform-component,#node-webform-64 .form-actions#edit-actions, #node-webform-144 .form-actions#edit-actions { text-align:right; } 
+#form-tracking font,.page-information-vessel-schedule .block-views .view-content table .views-field-view-node >a:first-child,.context-eservice .view-service-profile table .views-field-view-node a { float:left; margin-right:20px; } 
+.forum-table-wrap thead tr th,.forum-table-topics .views-field-title { padding:10px 0; } 
+#forum .forum-table-forums .forum-header tr th.forum-name,#forum .forum-table-forums tbody tr td.forum-details .forum-name a,#forum .forum-table-forums .forum-header tr th.forum-name,#forum .forum-table-forums tbody tr td.forum-last-reply a:first-child { text-decoration:none; font-size:14px; font-weight:700; } 
+tr.even td.forum-list-icon-default .forum-list-icon-wrapper span,tr.odd td.forum-list-icon-default .forum-list-icon-wrapper span,.forum-list-icon-legend .forum-list-icon-default,tr.even td.forum-list-icon-new-posts .forum-list-icon-wrapper span,tr.odd td.forum-list-icon-new-posts .forum-list-icon-wrapper span,.forum-list-icon-legend .forum-list-icon-new-posts { background:transparent url(../images/icon-forum.png) no-repeat center center; } 
+#forum .forum-table-topics,.page-news #section-content #zone-content,.page-forum .container-12 .grid-12 { width:980px; } 
+.forum-node-create-links .forum-add-node,.quickbar-enabled .view-header { margin-bottom:20px; } 
+#block-menu-menu-contact-us .block-inner,#block-menu-menu-company .block-inner,#block-menu-menu-resource .block-inner,.quickbar-enabled .views-table tr td { padding:10px; } 
+#block-menu-menu-contact-us .block-inner .block-title,#block-menu-menu-company .block-inner .block-title,#block-menu-menu-resource .block-inner .block-title { text-transform:uppercase; color:#FFF; font-family:arial; } 
+#block-menu-menu-contact-us .menu li,#block-menu-menu-company .menu li,#block-menu-menu-resource .menu li { list-style:none; border-bottom:1px solid #FFF; padding-bottom:5px; padding-top:5px; } 
+#block-menu-menu-contact-us .menu li:last-child,#block-menu-menu-company .menu li:last-child,#block-menu-menu-information .menu li:last-child,#block-menu-menu-vn-clone-information .menu li:last-child,#block-menu-menu-vn-e-service .menu li:last-child,#block-menu-menu-vn-resource .menu li:last-child,#block-menu-menu-vn-news .menu li:last-child,#block-menu-menu-vn-company .menu li:last-child,#block-menu-menu-vn-contact-us .menu li:last-child,#block-menu-menu-news .menu li:last-child,#block-menu-menu-e-service .menu li:last-child { border-bottom:none; } 
+#block-menu-menu-contact-us .menu li.active-trail,#block-menu-menu-company .menu li.active-trail { list-style:none; border-bottom:1px solid #FFF; padding-bottom:5px; padding-top:5px; background:url(../images/menu-active.png) no-repeat right center; } 
+#block-menu-menu-contact-us .menu li a,#block-menu-menu-company .menu li a,#block-menu-menu-resource .menu li a { text-decoration:none; color:#FFF; } 
+#block-menu-menu-contact-us .menu li a.active,#block-menu-menu-company .menu li a.active { font-weight:700; } 
+#node-webform-12,#node-webform-130,#node-webform-30,#node-webform-64, #node-webform-144 { width:545px; float:left; margin-left:25px; } 
+#node-webform-12 .webform-container-inline label,#node-webform-130 .webform-container-inline label,#node-webform-30 .webform-container-inline label { font-size:12px; font-family:arial; width:163px; margin-right:0; } 
+#node-webform-12 #edit-submitted-name-last,#node-webform-130 #edit-submitted-name-last,.page-news .container-12 .grid-3,.node-type-careers .container-12 .grid-3,.node-type-holidays-public .container-12 .grid-3,.node-type-news .container-12 .grid-3,#node-webform-30 #edit-submitted-name-last-first-middle-apply,#node-webform-64 #edit-submitted-name-last-first-middle, #node-webform-144 #edit-submitted-name-last-first-middle { width:165px; } 
+#node-webform-12 input[type=text],#node-webform-12 input[type=email],#node-webform-130 input[type=text],#node-webform-130 input[type=email],#node-webform-30 input[type=text],#node-webform-12 input[type=email],#node-webform-130 input[type=email],#node-webform-64 input[type=text],#node-webform-144 input[type=text],#node-webform-64 input[type=email],#node-webform-144 input[type=email] { border-radius:3px; border-color:#A5A0A0; } 
+#webform-component-name-last,#webform-component-name-last-first-middle-apply { margin-left:17px; } 
+#node-webform-12 #edit-submitted-frist-name,#node-webform-130 #edit-submitted-frist-name,#node-webform-30 #edit-submitted-frist-name-apply,#node-webform-64 #edit-submitted-frist-name,#node-webform-144 #edit-submitted-frist-name { width:105px; } 
+#node-webform-12 #edit-submitted-middle-name,#node-webform-130 #edit-submitted-middle-name,#node-webform-30 #edit-submitted-middle-name-apply,#node-webform-64 #edit-submitted-middle-name,#node-webform-144 #edit-submitted-middle-name { width:95px; } 
+#node-webform-12 #edit-submitted-home-phone,#node-webform-130 #edit-submitted-home-phone,#node-webform-12 #edit-submitted-other-phone,#node-webform-130 #edit-submitted-other-phone,#node-webform-30 #edit-submitted-home-phone-apply,#node-webform-30 #edit-submitted-other-phone-apply { width:225px; } 
+#node-webform-12 #webform-component-home-phone,#node-webform-130 #webform-component-home-phone,#node-webform-12 #webform-component-other-phone,#node-webform-130 #webform-component-other-phone,#node-webform-30 #webform-component-home-phone-apply,#node-webform-30 #webform-component-other-phone-apply { margin-right:150px; } 
+#node-webform-12 #webform-component-other-phone label,#node-webform-12 #webform-component-email label,#node-webform-130 #webform-component-other-phone label,#node-webform-130 #webform-component-email label,#node-webform-12 #edit-submitted-attach-file-ajax-wrapper label,#node-webform-130 #edit-submitted-attach-file-ajax-wrapper label,#node-webform-30 #webform-component-other-phone-apply label,#node-webform-30 #webform-component-email-apply label,#node-webform-30 #edit-submitted-attach-resume-apply-ajax-wrapper label { margin-right:8px; } 
+#node-webform-12 #edit-submitted-current-address,#node-webform-12 #edit-submitted-city-state-zipcode,#node-webform-130 #edit-submitted-current-address,#node-webform-130 #edit-submitted-city-state-zipcode,#node-webform-12 #edit-submitted-email,#node-webform-12 #edit-submitted-description,#node-webform-130 #edit-submitted-email,#node-webform-130 #edit-submitted-description,#node-webform-12 #edit-submitted-company-name-your-name,#node-webform-130 #edit-submitted-company-name-your-name,#node-webform-30 #edit-submitted-current-address-apply,#node-webform-30 #edit-submitted-city-state-zip-apply,#node-webform-30 #edit-submitted-email-apply,#node-webform-30 #edit-submitted-description-apply,#node-webform-64 #edit-submitted-current-address,#node-webform-144 #edit-submitted-current-address,#node-webform-64 #edit-submitted-phone-number,#node-webform-64 #edit-submitted-email,#node-webform-144 #edit-submitted-email,#node-webform-64 #edit-submitted-question, #node-webform-144 #edit-submitted-question { width:375px; } 
+#webform-component-frist-name,#webform-component-middle-name,#webform-component-frist-name-apply,#webform-component-middle-name-apply { margin-left:5px; } 
+#node-webform-12 #edit-submitted-attach-file input:nth-child(2),#node-webform-130 #edit-submitted-attach-file input:nth-child(2),#node-webform-12 .form-managed-file input:nth-child(2),#node-webform-130 .form-managed-file input:nth-child(2),#node-webform-30 #edit-submitted-attach-resume-apply input:nth-child(2),#node-webform-30 .form-managed-file input:nth-child(2) { width:54px; background:url(../images/btn-add.png) center center; border-radius:3px; text-align:center; height:24px; color:#FFF; text-shadow:none; margin:0 0 0 8px; padding:0; } 
+#node-webform-12 #webform-component-attach-file label,#node-webform-130 #webform-component-attach-file label,#node-webform-30 #webform-component-attach-resume-apply label { float:left; text-align:right; margin-right:8px; } 
+#node-webform-12 .form-managed-file,#node-webform-130 .form-managed-file,#node-webform-12 #edit-submitted-attach-file-ajax-wrapper,#node-webform-130 #edit-submitted-attach-file-ajax-wrapper,#node-webform-30 .form-managed-file,#node-webform-30 #edit-submitted-attach-resume-apply-ajax-wrapper { margin-right:50px; width:496px; } 
+#node-webform-12 #webform-component-attach-file,#node-webform-130 #webform-component-attach-file,#node-webform-30 #webform-component-attach-resume-apply { text-align:left; } 
+#node-webform-12 input,#node-webform-12 textarea,#node-webform-130 input,#node-webform-12 textarea,#node-webform-30 input,#node-webform-30 textarea,#node-webform-64 input,#node-webform-144 input,#node-webform-64 textarea , #node-webform-144 textarea{ box-shadow:none; } 
+#node-webform-12 #webform-component-description label,#node-webform-130 #webform-component-description label,#node-webform-30 #webform-component-description-apply label,#node-webform-64 #webform-component-question label , #node-webform-144 #webform-component-question label{ text-align:right; float:left; width:162px; margin-right:8px; } 
+#node-webform-12 .form-actions#edit-actions #edit-submit,#node-webform-130 .form-actions#edit-actions #edit-submit,#node-webform-30 .form-actions#edit-actions #edit-submit,#node-webform-144 .form-actions#edit-actions #edit-submit, #node-webform-64 .form-actions#edit-actions #edit-submit { border-radius:5px 5px 3px 3px; background:url(../images/bg-btn.png) repeat-x; color:#FFF; padding-top:5px; text-shadow:none; } 
+.page-node-14 #block-system-main,.page-news #block-system-main,.node-type-careers #block-system-main,.node-type-holidays-public #block-system-main,.node-type-news #block-system-main { float:left; margin-left:20px; } 
+#block-menu-menu-company,#block-menu-menu-e-service { border-radius:10px; float:left; font-family:arial; width:200px; box-shadow:2px 4px 1px #c7bdbd; margin-top:30px; margin-bottom:20px; background:url(../images/bg-block-left.png); } 
+.page-node-16 #node-page-16,#node-page-8 { float:left; width:760px; color:#565656; font-size:14px; } 
+#block-menu-menu-information,#block-menu-menu-vn-clone-information,#block-menu-menu-vn-e-service,#block-menu-menu-vn-resource,#block-menu-menu-vn-news,#block-menu-menu-vn-company,#block-menu-menu-vn-contact-us { border-radius:10px; float:left; font-family:arial; width:200px; box-shadow:2px 4px 1px #c7bdbd; margin-top:30px; background:url(../images/bg-block-left.png); margin-bottom:20px; } 
+#block-menu-menu-information li,#block-menu-menu-vn-clone-information li,#block-menu-menu-vn-e-service li,#block-menu-menu-vn-resource li,#block-menu-menu-vn-news li,#block-menu-menu-vn-company li,#block-menu-menu-vn-contact-us li,#block-menu-menu-news li,#block-menu-menu-e-service li { list-style:none; font-family:arial; } 
+#block-menu-menu-information .menu li,#block-menu-menu-vn-clone-information .menu li,#block-menu-menu-vn-e-service .menu li,#block-menu-menu-vn-resource .menu li,#block-menu-menu-vn-news .menu li,#block-menu-menu-vn-company .menu li,#block-menu-menu-vn-contact-us .menu li,#block-menu-menu-news .menu li,#block-menu-menu-e-service .menu li { border-bottom:1px solid #FFF; padding-bottom:5px; padding-top:5px; padding-right:10px; } 
+#block-menu-menu-information .menu li.active-trail,#block-menu-menu-vn-clone-information .menu li.active-trail,#block-menu-menu-vn-e-service .menu li.active-trail,#block-menu-menu-vn-resource .menu li.active-trail,#block-menu-menu-vn-news .menu li.active-trail,#block-menu-menu-vn-company .menu li.active-trail,#block-menu-menu-vn-contact-us .menu li.active-trail,#block-menu-menu-news .menu li.active-trail,#block-menu-menu-resource .menu li.active-trail,#block-menu-menu-e-service .menu li.active-trail { background:url(../images/menu-active.png) no-repeat right center; } 
+#block-menu-menu-information .menu li a,#block-menu-menu-vn-clone-information .menu li a,#block-menu-menu-vn-e-service .menu li a,#block-menu-menu-vn-resource .menu li a,#block-menu-menu-vn-news .menu li a,#block-menu-menu-vn-company .menu li a,#block-menu-menu-vn-contact-us .menu li a,#block-menu-menu-news .menu li a,#block-menu-menu-e-service .menu li a { color:#FFF; text-decoration:none; } 
+#block-menu-menu-information .block-inner,#block-menu-menu-vn-clone-information .block-inner,#block-menu-menu-vn-e-service .block-inner,#block-menu-menu-vn-resource .block-inner,#block-menu-menu-vn-news .block-inner,#block-menu-menu-vn-company .block-inner,#block-menu-menu-vn-contact-us .block-inner,#block-menu-menu-news .block-inner,#block-menu-menu-e-service .block-inner { font-family:arial; padding:10px; } 
+#block-menu-menu-information .block-title,#block-menu-menu-vn-clone-information .block-title,#block-menu-menu-vn-e-service .block-title,#block-menu-menu-vn-resource .block-title,#block-menu-menu-vn-news .block-title,#block-menu-menu-vn-company .block-title,#block-menu-menu-vn-contact-us .block-title,#block-menu-menu-news .block-title,#block-menu-menu-e-service .block-title { color:#FFF; text-transform:uppercase; font-family:arial; } 
+.page-eservice-faqs #block-system-main .block-inner .view-content,.page-node-11 #zone-content #region-content .region-inner,.page-node-32 #zone-content #region-content .region-inner,.page-node-42 #zone-content #region-content .region-inner,.page-node-43 #zone-content #region-content .region-inner,.page-node-44 #zone-content #region-content .region-inner,.page-node-45 #zone-content #region-content .region-inner,.page-node-46 #zone-content #region-content .region-inner,.page-node-47 #zone-content #region-content .region-inner,.page-node-66 #zone-content #region-content .region-inner,.page-node-67 #zone-content #region-content .region-inner,.page-node-48 #zone-content #region-content .region-inner,.context-eservice #zone-content #region-content .region-inner,.page-node-76 #zone-content #region-content .region-inner,.page-node-123 #zone-content #region-content .region-inner,.node-type-service-profile-new #zone-content #region-content .region-inner,.context-news #zone-content #region-content .region-inner,.page-node-33 #zone-content #region-content .region-inner,.page-node-22 #section-content #zone-content #region-content .region-content-inner,.page-node-23 #section-content #zone-content #region-content .region-content-inner,.page-node-24 #section-content #zone-content #region-content .region-content-inner,.page-node-55 #section-content #zone-content #region-content .region-content-inner,.page-node-134 #section-content #zone-content #region-content .region-content-inner,.page-node-59 #section-content #zone-content #region-content .region-content-inner,.page-node-60 #section-content #zone-content #region-content .region-content-inner,.page-node-8 #section-content #zone-content #region-content .region-content-inner,.page-node-9 #section-content #zone-content #region-content .region-content-inner,.page-node-15 #section-content #zone-content #region-content .region-content-inner,.page-node-16 #section-content #zone-content #region-content .region-content-inner,.context-news #section-content #zone-content #region-content .region-content-inner,.page-node-26 #section-content #zone-content #region-content .region-content-inner { margin-top:26px; } 
+.node-type-service-profile #block-menu-menu-information,.context-information #block-menu-menu-information,.node-type-service-profile #block-menu-menu-vn-clone-information,.context-information #block-menu-menu-vn-clone-information,.node-type-service-profile #block-menu-menu-vn-e-service,.context-information #block-menu-menu-vn-e-service,.node-type-service-profile #block-menu-menu-vn-resource,.context-information #block-menu-menu-vn-resource,.node-type-service-profile #block-menu-menu-vn-news,.context-information #block-menu-menu-vn-news,.node-type-service-profile #block-menu-menu-vn-company,.context-information #block-menu-menu-vn-company,.node-type-service-profile #block-menu-menu-vn-contact-us,.context-information #block-menu-menu-vn-contact-us { margin-top:30px; margin-bottom:20px; } 
+h3,h2,#page-title { font-family:arial; } 
+#views-exposed-form-search-category-page,.node-type-news #section-content #zone-content #region-content { float:right; } 
+.node-type-careers .region-sidebar-first,.node-type-holidays-public .region-sidebar-first { width:200px!important; float:left; margin-right:20px; } 
+.page-node-55 #node-page-55 tbody td,.page-node-134 #node-page-134 tbody td,.page-node-59 #node-page-59 tbody td,.page-node-60 #node-page-60 tbody td { border:1px solid gray; padding:5px; } 
+.page-node-43 #section-content #zone-content #region-content .region-content-inner,.page-node-44 #section-content #zone-content #region-content .region-content-inner,.page-node-45 #section-content #zone-content #region-content .region-content-inner,.page-node-46 #section-content #zone-content #region-content .region-content-inner,.page-node-47 #section-content #zone-content #region-content .region-content-inner,.page-node-48 #section-content #zone-content #region-content .region-content-inner,.page-node-21 #section-content #zone-content #region-content .region-content-inner,#block-block-11 { margin-top:10px; } 
+.page-node-118.node-type-page table tr td,.page-node-24.node-type-page table tr td,.page-node-33.node-type-page table table table table tr td,.page-node-32.node-type-page table table table tr td { border:1px solid gray; padding-top:10px; }
+.form-item-field-sche-to-loc-value { position: relative; }
+.dropdownSearch ul, .dropdownSearch ul li { list-style: none; }
+.dropdownSearch { position:absolute; top: 100%; left: 0px; background: #ccc; width: 100%; display: none; }
+.dropdownSearch ul li { cursor: pointer; padding-left:5px; }
+.dropdownSearch ul li:hover { color: #105395; }
+
+.global-notify {
+	position: fixed !important;
+	z-index: 99;
+	right: 10px;
+	width: 180px;
+	bottom: 64px;
+	background: #DDD;
+	box-shadow: 0 0 7px -3px #000;
+	border: 1px solid #FFF;
+	border-radius: 2px;
+}
+.global-notify th {
+	font-weight: bold;
+	color: #333;
+	font-size: 11px;
+}
+.global-notify table {
+	margin: 0 !important;
+}
+.global-notify th, .global-notify td {
+	padding: 10px !important;
+}
+.global-notify .view-header .close {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	background: url('../images/notify-down.png') center center transparent;
+	cursor: pointer;
+	z-index: 99;
+}
+.global-notify .view-header .close.active {
+	background: url('../images/notify-up.png') center center transparent;
+}
+.view-clone-of-vessel-schedule table.views-table {
+	width: 96.5%;
+}
+.view-clone-of-vessel-schedule table.views-table .views-field.views-field-title {
+	width: 50%;
+}
+
+
+
+
+
+
